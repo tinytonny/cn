@@ -7,7 +7,7 @@
 
 *yum install ntpdate*
 
-*ntpdate ntp.jcloudcs.com*
+*ntpdate ntp.jdcloudcs.com*
 
 
 
@@ -15,4 +15,4 @@
 
 *sudo apt-get install ntpdate*
 
-*sudo ntpdate ntp.jcloudcs.com*
+*sudo ntpdate ntp.jdcloudcs.com*
