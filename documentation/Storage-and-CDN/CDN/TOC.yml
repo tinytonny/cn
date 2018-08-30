@@ -1,4 +1,4 @@
-  name: CDN
+name: CDN
   href: 
   items:
   - name: 产品简介
@@ -18,7 +18,7 @@
   - name: 产品定价
     items:
       - name: 计费概述
-        href: Pricing/Billing-Overview.md
+        href: Pricing/Billing-Overview.md	
       - name: 计费变更
         href: Pricing/Billing-change.md
       - name: 欠费说明
@@ -41,8 +41,8 @@
             href: Operation-Guide/Operating-Analysis/Hot-spot-Analysis .md
       - name: 质量分析
         items:
-          - name:命中率
-            href: Operation-Guide/Quality-Monitoring/Hit-Ratio.md        
+          - name: 命中率
+            href : Operation-Guide/Quality-Monitoring/Hit-Ratio.md        
           - name: 状态码
             href: Operation-Guide/Quality-Monitoring/Status-Code.md         
       - name: 访问控制
