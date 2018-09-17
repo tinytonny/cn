@@ -33,11 +33,11 @@ signature =md5sum("**uri-expire-uniqid-rand-private_key**")
 
 **1.4**   **示例说明**
 
-+ 通过请求对象:
+* 通过请求对象:
 
 https://cdn.example.com/video/standard/1K.html?fa=121&jd=121
 
-+ 密钥设为：jdcloud1234 **(由用户自行设置)**
+* 密钥设为：jdcloud1234 **(由用户自行设置)**
 
 + 鉴权配置文件失效日期为：2020年06月18日00:00:00,计算出来的秒数为1592409600
 
