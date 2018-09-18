@@ -23,7 +23,7 @@ requestId：用以标识错误请求的唯一UUID，在无法解决问题时候�
 ## 图片处理服务的错误码
 
 |错误码|Message|描述|HTTP码|
-|-|-|-|-|
+|:-:|-|-|-|
 |BadRequest|Bad Request|请求报文格式错误|400|
 |NoSuchKey|The specified key does not exist.|资源不存在|404|
 |AccessDenied|Access Denied|服务器拒绝请求|403|
