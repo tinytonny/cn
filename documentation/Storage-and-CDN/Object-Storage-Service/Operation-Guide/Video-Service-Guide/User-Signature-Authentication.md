@@ -98,7 +98,7 @@ AccessKeySecret是”1MYaiNh3NeN9SuxaqFjSrc7I49rWKkQCxpl9eLNZ”
 
 JAVA示例代码:
 
-<code>
+```
 import javax.crypto.Mac;
   
 import javax.crypto.spec.SecretKeySpec;
@@ -119,7 +119,7 @@ mac.init(signingKey);
 byte[] rawHmac = mac.doFinal(signString.getBytes("UTF-8"));
 
 String signature =  new String(Base64.encodeBase64(rawHmac), "UTF-8");
-<code>
+```
 
 签名(Signature)计算结果应该为xvj2Iv7WcSwnN26XYnTq/c2YBQs=，因为
 Authorization = “jingdong “ + AccessKey + “:” + Signature所以最后Authorization为 “jingdong qbS5QXpLORrvdrmb: xvj2Iv7WcSwnN26XYnTq/c2YBQs=”然后加上Authorization头来组成最后需要发送的消息：
