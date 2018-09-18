@@ -6,11 +6,7 @@
 ```
 Authorization ="jingdong" + " " + AccessKey + ":" + Signature;
 Signature =base64(HMAC-SHA1(AccessKeySecret, UTF-8-Encoding-Of( StringToSign ) ) )
-StringToSign =HTTP-Verb + "\n" + Content-MD5 + "\n"
-                      <br>+ Content-Type + "\n"
-                       + Date + "\n"
-                       + CanonicalizedHeaders
-                       + CanonicalizedResource;
+StringToSign =HTTP-Verb + "\n" + Content-MD5 + "\n" + Content-Type + "\n" + Date + "\n" + CanonicalizedHeaders + CanonicalizedResource;
 ```
 
 注意：
